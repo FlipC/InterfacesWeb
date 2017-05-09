@@ -1,4 +1,4 @@
-
+ms
 /* Magnific Popup CSS */
 .mfp-bg {
   font-family: 'nexa_lightregular';
@@ -318,7 +318,7 @@ img.mfp-img {
   cursor: pointer; }
 /******** Plans List *******/
 /* Styles for dialog window */
-#small-dialog {
+#small-dialog, #small-dialog3, #small-dialog2, #small-dialog4, #small-dialog5 {
 	background: white;
 	padding: 20px 30px;
 	text-align: left;
