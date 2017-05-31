@@ -7,72 +7,193 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>The Travler Website Template | Travel Guide :: w3layouts</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/jquery-ui.css" />
-<!-- start reservation form -->
-<link type="text/css" rel="stylesheet" href="css/JFform.css" />
-<script src="js/jquery-1.9.1.min.js"></script> 
-<script src="js/jquery.easydropdown.js"></script>
-		<script type="text/javascript" src="js/JFCore.js"></script>
-		<script type="text/javascript" src="js/JFForms.js"></script>
-		<!-- Set here the key for your domain in order to hide the watermark on the web server -->
-		<script type="text/javascript">
-			(function() {
-				JC.init({
-					domainKey: ''
-				});
-				})();
-		</script>
+	<title>The Travler Website Template | Services :: w3layouts</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Add fancyBox main JS and CSS files -->
+	<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.easydropdown.js"></script>
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<script>
+        $(document).ready(function() {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: 'auto',
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+        });
+	</script>
+
 </head>
 <body>
 <!-- start header-->
 <div class="header_bg">
-<div class="wrap">
-	<div class="header">
-		<div class="logo">
-			<a href="index.html"></a>
-		</div>
-		<div class="header_right">
-		<div class="search">
-		    		<form>
-		    			<input type="text" value="" placeholder="Busca aquí lo que deseas">
-		    			<input type="submit" value="">
-		    		</form>
+	<div class="wrap">
+		<div class="header">
+			<div class="logo">
+				<a href="index.html"></a>
+			</div>
+			<div class="header_right">
+				<div class="search">
+					<form>
+						<input type="text" value="" placeholder="Busca aquí lo que deseas">
+						<input type="submit" value="">
+					</form>
 				</div>
-		<div class="clear"></div>
-	</div>
-	</div>
-	<div class="header_menu">
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="header_menu">
 			<div class="menu_box_list">
 				<ul>
 					<li class="color1 active"><a href="travel_guide.html"><i class="icon1"> </i><span>Donde Comer</span></a></li>
 					<li class="color2"><a href="service.html"> <i class="icon2"> </i> <span>Donde Dormir</span></a></li>
-			  		<li class="color3"><a href="about.html"> <i class="icon3"> </i><span>Donde Ir</span></a></li>
-			  		<li class="color4"><a href="site_map.html"> <i class="icon4"> </i><span>Donde Entretenerte</span></a></li>
-			  		
-			  		<li class="color6"><a href="contact.html"> <i class="icon6"> </i> <span>Vacio por ahora</span></a></li>
+					<li class="color3"><a href="about.html"> <i class="icon3"> </i><span>Donde Donde ir</span></a></li>
+					<li class="color4"><a href="service.html"> <i class="icon4"> </i><span>Donde Entretenerte</span></a></li>
+
+					<li class="color6"><a href="contact.html"> <i class="icon6"> </i> <span>Vacio por ahora</span></a></li>
 				</ul>
 				<div class="clear"></div>
-		   </div>
-	 </div>
-</div>
+			</div>
+		</div>
+	</div>
 </div>
 <!-- start top-->
 <div class="top_bg">
-<div class="wrap">
-	<div class="top_grids1">
-		<div class="top_grids_text">
+	<div class="wrap">
+		<div class="top_grids1">
+			<div class="top_grids_text">
+				<h2>Disfruta de la gastronomía chillaneja.</h2>
+				<p>Aquí tienes las mejores opciones</p>
+			</div>
+			<div class="top_map1">
+				<ul>
+					<li class="map"></li>
+				</ul>
+			</div>
 			<h2></h2>
-			<p>And what mean that</p>
-		</div>
 
 		<div class="clear"></div>
-	</div>	
+	</div>
 </div>
 </div>
+<!-- start content -->
+<div class="content_bg">
+	<div class="wrap">
+		<div class="content">
+			<div class="content_text about">
+				<h2>Tus Mejores Lugares</h2>
+				<p></p>
+			</div>
+			<!-- start popup -->
+			<div id="small-dialog-comer1" class="mfp-hide">
+				<div class="pop_up">
+					<h2>Restaurant Valdés</h2>
+					<img src="images/com_04.jpg" title="image-name">
+					<p>Restaurant Valdes ofrece una gran variedad de gastronomía chillaneja.</p>
+				</div>
+			</div>
+
+			<div id="small-dialog-comer2" class="mfp-hide">
+				<div class="pop_up">
+					<h2>Restaurant La Motoneta</h2>
+					<img src="images/com_05.jpg" title="image-name">
+					<p>La Motoneta cuenta con una variada carta que incluye comida casera, carne, pescados y mariscos, pastas, comida peruana y variados postres. Haciendo muy atractiva la atención a empresas y otros. Lo que hace que sea conocida a nivel nacional e internacional, visitada habitualmente por turistas extranjeros.</p>
+				</div>
+			</div>
+
+			<div id="small-dialog-comer3" class="mfp-hide">
+				<div class="pop_up">
+					<h2>Pizzería Donatello</h2>
+					<img src="images/com_02.jpg" title="image-name">
+					<p>Donatello ofrece productos y servicios gastronómicos de primer nivel, elaborados por un personal capacitado y con experiencia en la preparación de pizzas artesanales y pastas frescas de elaboración propia, brindando así un servicio de calidad, asequible para personas de todos los rangos de edad, gustos y preferencias.</p>
+				</div>
+			</div>
+
+			<div id="small-dialog-comer4" class="mfp-hide">
+				<div class="pop_up">
+					<h2>Las Moteras de Chillán</h2>
+					<img src="images/com_03.jpg" title="image-name">
+					<p>Son quince puestos ubicados en la avenida O´Higgins con Collin, que en su totalidad son administrados por mujeres emprendedoras que con sus delantales blancos y agitando sus manos a los automovilistas se han ganado un espacio muy importante dentro de la ciudad, siendo reconocidas a nivel nacional, convirtiéndose como un punto de referencia para los turistas que visitan cada año la ciudad. Tres son las opciones para elegir que ofrecen estas mujeres: mote con huesillo grande a $2.500; mediano a $1.500 y $1.000 para los más pequeños. Todos servidos en vasos shopperos con hielo a quienes lo deseen.</p>
+				</div>
+			</div>
+
+			<div id="small-dialog-comer5" class="mfp-hide">
+				<div class="pop_up">
+					<h2>Akami Sushi-Delivery Chillán</h2>
+					<img src="images/com_01.jpg" title="image-name">
+					<p>Akami ofrece una amplia gama de combinaciones de sushi para degustar a todos los paladares. Expertos en sushi, excelencia en sabor.</p>
+				</div>
+			</div>
+
+			<div id="small-dialog-comer6" class="mfp-hide">
+				<div class="pop_up">
+					<h2>Restaurant Ficus Chillán</h2>
+					<img src="images/com_06.jpg" title="image-name">
+					<p>Ficus ofrece el mejor espacio para disfrutar de una buena comida.</p>
+				</div>
+			</div>
+			<!-- end popup -->
+			<!-- start btm_grids -->
+			<div class="btm_grids">
+				<div class="btm_grid">
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog-comer1"><img src="images/com_04.jpg" title="image-name"></a>
+						</div>
+						<p>Encuentranos en Maipón 897, esquina Sargento Aldea, Chillán. Teléfono (42) 222 4312</p>
+					</div>
+
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog-comer2"><img src="images/com_05.jpg" title="image-name"></a>
+						</div>
+						<p>Encuentranos en Padre Alberto Hurtado 220, Chillán. Teléfono (42) 227 2677 </p>
+					</div>
+
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog-comer3"><img src="images/com_02.jpg" title="image-name"></a>
+						</div>
+						<p>Encuentranos en Av. Argentina 402, Chillan. Teléfono (42) 222 2484 </p>
+					</div>
+
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog-comer4"><img src="images/com_03.jpg" title="image-name"></a>
+						</div>
+						<p> Encuentranos en esquina Avenida O'higgins con Collin, Chillán.</p>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+				<div class="btm_grid top">
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog-comer5"><img src="images/com_01.jpg" title="image-name"></a>
+						</div>
+						<p> Encuentranos en Arturo Prat 507, Chillán. Teléfono +56 42 2 335130.</p>
+					</div>
+
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog-comer6"><img src="images/com_06.jpg" title="image-name"></a>
+						</div>
+						<p> Encuentranos en Rosas 392, Chillán. Teléfono (42) 221 2176 o 42 223 3522</p>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 </body>
 </html>
