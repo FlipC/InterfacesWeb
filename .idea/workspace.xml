@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e0d718-f74d-4204-aad2-8e48c5f6b3aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service.html" afterPath="$PROJECT_DIR$/service.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="service.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="309" column="67" lean-forward="false" selection-start-line="309" selection-start-column="67" selection-end-line="309" selection-end-column="67" />
+            <state relative-caret-position="314">
+              <caret line="223" column="132" lean-forward="false" selection-start-line="223" selection-start-column="132" selection-end-line="223" selection-end-column="132" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -266,12 +265,12 @@
       <workItem from="1496265675302" duration="2634000" />
       <workItem from="1496720616341" duration="1730000" />
       <workItem from="1496722639407" duration="101000" />
-      <workItem from="1496756937882" duration="2262000" />
+      <workItem from="1496756937882" duration="2374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29614000" />
+    <option name="totallyTimeSpent" value="29726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -741,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="309" column="67" lean-forward="false" selection-start-line="309" selection-start-column="67" selection-end-line="309" selection-end-column="67" />
+        <state relative-caret-position="314">
+          <caret line="223" column="132" lean-forward="false" selection-start-line="223" selection-start-column="132" selection-end-line="223" selection-end-column="132" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
