@@ -55,13 +55,13 @@ body {
 	background: #EBEBEB;
 }
 .header{
-	padding: 4% 6%;
+	padding: 2% 6%;
 }
 .logo a{
 	float: left;
-	background: url('../images/sprite.png') no-repeat 0% 0%;
-	width: 25%;
-	height: 60px;
+	background: url('../images/logo2.png') no-repeat 0% 0%;
+	width: 134px;
+	height: 90px;
 }
 .header_right{
 	margin-top: 10px;
@@ -640,9 +640,9 @@ p.f_para{
 }
 .f_grid h2 a{
 	float: left;
-	background: url('../images/sprite.png') no-repeat 0% 72%;
+	background: url('../images/sprite.png') no-repeat 0% 79%;
 	width: 55%;
-	height: 60px;
+	height: 70px;
 }
 .footer_nav li{
 	float: left;
